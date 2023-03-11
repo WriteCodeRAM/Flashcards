@@ -86,3 +86,44 @@ button:hover{
   cursor: pointer;
   transition: 0.2s all ease-in-out;
 }
+
+.checkAnswerBtn{
+  width: 100px;
+  height: 25px;
+}
+
+.checkAnswerBtn:hover{
+  box-shadow: 3px 3px 12px 3px rgba(248,144,231, 0.7);
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+
+form{
+  display: flex;
+  gap: 8px;
+}
+
+.WRONG{
+  /* display: none; */
+
+
+  border: solid 3px red;
+  border-radius: 4%;
+
+}
+
+
+
+.CORRECT{
+
+  border: solid 3px green;
+
+}
+
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 12px;
+}
